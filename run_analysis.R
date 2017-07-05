@@ -29,4 +29,4 @@ for (i in 1:6) {
 }
 
 #------ END Creating New Data Set ------
-write.table(tidyData, "TidyData.txt", row.name=FALSE)
+write.table(tidyData, "TidyData.txt", col.name=FALSE)
