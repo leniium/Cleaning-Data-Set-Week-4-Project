@@ -1,0 +1,13 @@
+Variables: 
+
+activities: activities used in trial as per the initial project. 
+features: features measured in the tiral as per the initial project.
+training: training data set
+test: test data set
+data: training and test data sets combined. 
+extractedData: data extracted just to include Mean and STD. 
+meanIndex: Indecies of the columns that are Mean variables
+stdIndex: indecies of the columns that are STD variables
+i: counter for for loop
+splittedData: splitted data based on the activity number
+tidyData: final tidy data, average of every subject and activity.
