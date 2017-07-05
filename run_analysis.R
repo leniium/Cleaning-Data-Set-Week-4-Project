@@ -1,4 +1,3 @@
-setwd("C://Users//lena_/Documents//Coursera//Coursera Data Scientist/Getting and Cleaning Data//Week 4//Project")
 #---- Please download and unzip data here. This step could be scripted but preffered to omit those steps. 
 library(data.table)
 library(dplyr)
