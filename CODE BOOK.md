@@ -1,7 +1,7 @@
 ### Column variables: 
 1. tBodyAcc-mean()-X
-2.. tBodyAcc-mean()-Y
-3.. tBodyAcc-mean()-Z
+2. tBodyAcc-mean()-Y
+3. tBodyAcc-mean()-Z
 4. tBodyAcc-std()-X
 5. tBodyAcc-std()-Y
 6. tBodyAcc-std()-Z
@@ -574,23 +574,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
@@ -614,35 +614,33 @@ angle(): Angle between to vectors.
 
 ## Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+-gravityMean
+-tBodyAccMean
+-tBodyAccJerkMean
+-tBodyGyroMean
+-tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
 ### Activities
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 
 ### R code Variables: 
 
-activities: activities used in trial as per the initial project. 
-features: features measured in the tiral as per the initial project.
-training: training data set
-test: test data set
-data: training and test data sets combined. 
-extractedData: data extracted just to include Mean and STD. 
-meanIndex: Indecies of the columns that are Mean variables
-stdIndex: indecies of the columns that are STD variables
-i: counter for for loop
-splittedData: splitted data based on the activity number
-tidyData: final tidy data, average of every subject and activity.
+* activities: activities used in trial as per the initial project. 
+* features: features measured in the tiral as per the initial project.
+* training: training data set
+* test: test data set
+* data: training and test data sets combined. 
+* extractedData: data extracted just to include Mean and STD. 
+* Index: Indecies of the columns that are Mean and STD variables
+* splittedData: splitted data based on the activity number
+* tidyData: final tidy data, average of every subject and activity.
 >>>>>>> d021772ded77ebafd7e47293d38074544c759f47:CODE BOOK.txt
