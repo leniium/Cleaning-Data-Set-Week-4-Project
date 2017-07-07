@@ -1,5 +1,3 @@
-#Readme
-
 The first portion of this script is dedicated to reading data. outcome is 5 datasets. 
 activities: the list of activities as defined in this project.
 features: measurements defined in the project.
@@ -14,7 +12,7 @@ fist the index of the variables which are eather average or std are found. Then 
 
 Third portion is used to create the final tidy data set requested. here split is used to devide the data set based on activity number. Then, lapply and colMeans is used to calculated the average of each column. this is unlisted and stored in tidyData. Finally to make the row names more meaningful, activity numbers are replaced by their descriptive names. 
 
-
+Also labeling is performed as per the feature and activity list provdied in the project. 
 
 
 
@@ -26,7 +24,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
